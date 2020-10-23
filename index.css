@@ -1,0 +1,331 @@
+body{
+    background-color:rgb(237, 230, 252) !important;
+}
+/*Nav bar */
+.topnav {
+    background-color: #3c3d6e;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #77aca2;
+    color: black;
+  }
+
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #3c3d6e;
+    color: #f2f2f2;
+  }
+  .topnav a.active:hover {
+    background-color: #77aca2;
+    color: #000000;
+  }
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+.home_header{
+    display: flex;
+    background-color: transparent;
+    color: #fff;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-family: "Coniferous";
+    
+}
+.home_header_media {
+    max-width: 100%;
+    opacity: 0.7;
+    height: auto;
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.footer-title{
+    color: white;
+    text-align: center;
+    font-family: avenir, sans-serif;
+    font-size: 20px;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.res{
+    font-family: Coniferous, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.center_title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: oskar-inline, sans-serif;
+    font-size: 7vw;
+    text-shadow: 5px 5px #3c3d6e
+}
+/*.nav_menu{
+    display: flex;
+    align-content: space-around;
+}
+*/
+.title{
+    color: #3c3d6e;
+    font-size: 30px;
+    text-align: center;
+    font-family: avenir, sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 2%;
+    background-color: rgb(237, 230, 252);
+}
+.subtitle{
+    text-align: center;
+    background-color: rgb(237, 230, 252);
+    color: #77aca2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu_items{
+    background-color: rgb(237, 230, 252);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.item{
+    padding: 10px;
+    /* position: relative;
+    max-width: 50%;
+    max-height: auto; */
+    background-color: rgb(237, 230, 252);
+    /* background-color: #f7efd9; */
+}
+
+.food{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    display: block;
+    color: transparent;
+}
+.d-flex{
+    color: inherit;
+    font-size: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all 0.5s;
+     position: absolute;
+}
+.container{
+    padding: 2%;
+    /* display: flex; */
+    
+    /* background-color: #f7efd9; */
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: #f7efd9; */
+}
+.food-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10%;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-fluid{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info {
+    font-size: 14px;
+    padding: 5%;
+    text-align: center;
+    font-family: reason-new, sans-serif;
+    font-weight: bold;
+}
+.cell{
+    width: calc(100%/3);
+}
+
+.footer-info{
+color: white;
+text-align: center;
+font-family: reason-new, sans-serif;
+font-size: 12px;
+}
+.footer-container{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.footer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+hr {
+    background-color: #3c3d6e;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-device-width: 769px) and (min-device-width: 481px){ /* tablet */
+	.center_title{
+        text-shadow: 3px 3px #3c3d6e
+    }
+    .title {
+        color: #3c3d6e;
+        font-size: 25px;
+        text-align: center;
+        font-family: avenir, sans-serif;
+        font-weight: bold;
+        padding: 5px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+    .cell {
+        width: 50%;
+        max-width: 100%;
+        height: 33vw;
+        object-fit: cover;
+        object-fit: contain;
+        padding-left: 3%;
+    }
+    .item {
+        width: 90%;
+    }
+    .res {
+        font-size: 18px;
+        padding-top: 0%;
+    }
+    .footer-title{
+        font-size: 13px;
+    }
+    .grid {
+        flex-direction: column;
+    }
+    .col {
+        width: 50%;
+        height: 47vw;
+        object-fit: cover;
+        object-fit: contain;
+        text-align: center;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+    float: right;
+    display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+}
+
+@media only screen and (max-device-width: 480px) { /* phone */
+    .center_title{
+        text-shadow: 2px 2px #3c3d6e
+    }
+    .title {
+        color: #3c3d6e;
+        font-size: 20px;
+        text-align: center;
+        font-family: avenir, sans-serif;
+        font-weight: bold;
+        padding: 5px;
+    }
+    .subtitle {
+        font-size: 15px;
+    }
+    .cell {
+        width: 50%;
+        max-width: 100%;
+        height: 25vw;
+        object-fit: cover;
+        object-fit: contain;
+        padding-left: 3%;
+    }
+    .item {
+        width: 90%;
+    }
+    .res {
+        font-size: 16px;
+        padding-top: 0%;
+    }
+    .footer-title{
+        font-size: 15px;
+    }
+    .grid {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        object-fit: contain;
+        text-align: center;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+    float: right;
+    display: block;
+  }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

@@ -1,0 +1,213 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Website Redesign</title>
+    <link rel="stylesheet" href="redesign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/axt2uiw.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <div class="title">
+      Website Redesign
+    </div>
+
+    <!--Responsive Navbar-->
+    <div class="topnav" id="myTopnav">
+      <a href="#Context" class="active">Context</a>
+      <a href="#Usability">Usability Redesign</a>
+      <a href="#Low">Low-Fi Prototypes</a>
+      <a href="#High">High-Fi Prototypes</a>
+      <a href="#Design">Design Guide</a>
+      <a href="#Final">Final Product</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <!--Context-->
+    <div class="heading" id="Context">
+      Context
+    </div>
+    <div class="subheading" >
+      How many times have we gone to a website that is impossible to figure out? 
+    </div>
+    <div class="paragraph">
+      <p>
+      My friends and I study in Providence and were looking for a place to play 
+      bowling closeby (pre-covid times). We came accross this bowling website and, unfortunately,
+      due to how visually unappealing and complicated it was to navigate it, we decided to go 
+      somewhere else. 
+      <br>
+      <br>
+      Now I'm going to walk you through how I redesigned
+      <a href="https://bowlri.com/" style="color: #77aca2; font-weight: bold;">this website. </a> 
+      First, I'll analyze
+      its problems. Second, I'll show you my low-fi, high-fi prototypes, and design guide, and finally,
+      I'll show the final result.
+      </p> 
+    </div>
+
+    <!--Original website-->
+    <div class="heading">
+      Original Website
+    </div>
+    <div class="images">
+      <img src="redesign_pics/original.png" alt="original website">
+    </div>
+
+    <!--Usability-->
+    <div class="heading" id="Usability">
+      Usability & Accessibility Redesign
+    </div>
+    <div class="subheading">
+      Usability & Accessibility
+    </div>
+    <div class="paragraph">
+      <ul>
+       <li>The original website has a navigation bar in the middle
+        of the page that the user would not immediately find unless they scroll. I relocated it at the top of 
+        the page, as it is a more expected and outstandinng place for it, and added the most relevant headings. </li>
+      <br>
+       <li>Additionally, many items on the nav bar display dropdown menus, which makes it complicated to
+        find relevant information. To increase legibility and visibility, I did an all-scroll, one page
+        format that summarizes all critical information.</li>
+      <br>
+      <li>Using a web accessibility evaluation tool, I discovered that the website has 8 empty headings, one empty link, and 5 pictures
+        are missing alternative text. Thus, I only used the most relevant and complete information and added alternative text to all 
+        images. </li>
+        <br>
+      <li>The original website has no consistency in text or structure. I redesigned it following a text hierarchy and a responsive column format
+        for each section.</li>
+      </ul> 
+    </div>
+
+    <!--Visual-->
+    <div class="subheading" id="Visual">
+      Visual Redesign
+    </div>
+    <div class="paragraph">
+      <p>
+        For improving the visual appeal of the website, I chose a minimalist design that immediately informs that the site is for a bowling
+       alley, and then changes to a more sutile background with an ordered structure and padding between objects. I also added icons to the 
+       snack bar menu and "Reservations" and "Youth" sections and increased the text contrast to improve legibility.
+      </p>
+    </div>
+
+    <!--Low-Fi-->
+    <div class="heading" id="Low">
+      Low-Fi Prototypes
+    </div>
+    <div class="paragraph">
+      I used Balsamiq to create low fidelity prototypes for my desktop, tablet, and phone view.
+      <br>
+    </div>
+    <div class="subheading" id="Visual">
+      Desktop View
+    </div>
+    <div class="images">
+      <img src="redesign_pics/desk-lowfi.png" alt="desktop low-fi prototype" style="width: 70%; height: auto; opacity: 95%;">
+    </div>
+    <div class="subheading" id="Visual">
+      Tablet View
+    </div>
+    <div class="images">
+      <img src="redesign_pics/tablet-lowfi.png" alt="tablet low-fi prototype" style="width: 85%; height: auto; opacity: 90%;">
+    </div>
+    <div class="subheading" id="Visual">
+      Phone View
+    </div>
+    <div class="images">
+      <img src="redesign_pics/mobile-lowfi.png" alt="mobile low-fi prototype" style="width: 85%; height: auto; opacity: 90%;">
+    </div>
+
+    <!--High-Fi-->
+    <div class="heading" id="High">
+      High-Fi Prototypes
+    </div>
+    <div class="paragraph">
+      Then, I used Figma to create my high fidelity prototypes for desktop, tablet, and phone view. Here I included the color palette
+      and images.
+      <br>
+    </div>
+    <div class="subheading" id="Visual">
+      Desktop View
+    </div>
+    <div class="images">
+      <img src="redesign_pics/redesign-hi-fi.png" alt="desktop hi-fi prototype" style="width: 70%; height: auto;">
+    </div>
+    <div class="subheading" id="Visual">
+      Tablet View
+    </div>
+    <div class="images">
+      <img src="redesign_pics/tablet-hi-fi.png" alt="tablet hi-fi prototype" style="width: 85%; height: auto;">
+    </div>
+    <div class="subheading" id="Visual">
+      Phone View
+    </div>
+    <div class="images">
+      <img src="redesign_pics/mobile-hi-fi.png" alt="mobile hi-fi prototype" style="width: 85%; height: auto;">
+    </div>
+
+    <!--Visual Design-->
+    <div class="heading" id="Design">
+      Visual Design Style Guide
+    </div>
+    <div class="paragraph">
+      A detailed style guide for my redesign:
+    </div>
+    <div class="images">
+      <img src="redesign_pics/styleguide_complete.jpg" alt="design guide" style="width: 70%; height: auto; background-color: #77aca2; padding: 2px;">
+    </div>
+
+    <!--Final Product-->
+    <div class="heading" id="Final">
+      Final Product
+    </div>
+    <div class="paragraph">
+      <p>
+        And finally, what we've been waiting for: 
+        <a href="ADD" style="color: #77aca2; font-weight: bold;"> click here </a> 
+        to see our redesigned bowling website.
+        <br>
+        <br>
+        We're happy to realize that the redesigned website is responsive --it fits different screen sizes--, has a defined languange and a structural grid order so that
+        screen readers can properly get the information, and (hopefully) is more visually appealing.
+      </p>
+    </div>
+
+    <!--Sourcing-->
+    <div class="heading" id="Final">
+      Image Sources
+    </div>
+    <div class="paragraph">
+      <ul>
+        <li> Pizza: https://www.pinclipart.com/pindetail/iiwoobw_pizza-coloring-page-pizza-outline-png-clipart/</li>
+        <li> Nachos: https://image.flaticon.com/icons/png/512/541/541836.png</li> 
+         <li> Ribs: https://cdn0.iconfinder.com/data/icons/meat-17/256/Food_Line_Outline_-123-512.png</li> 
+        <li> Burger: http://cdn.onlinewebfonts.com/svg/img_478376.png</li> 
+        <li> Sandwich: https://www.pinclipart.com/pindetail/hRThbi_sandwich-rubber-stamp-subway-sandwich-outline-clipart/</li>  
+        <li> Chicken: https://www.iconfinder.com/icons/1913232/fastfood_fried_chicken_food_bucket_chicken_fried_meal_icon</li>
+        <li> Pins: http://www.clipartbest.com/cliparts/7ia/ode/7iaodejaT.jpg</li>
+        <li> Ball: https://www.vectorstock.com/royalty-free-vector/bowling-new-ball-icon-outline-style-vector-21377014</li>
+        <li> Bowling background: https://wall.alphacoders.com/big.php?i=380057&lang=Swedish</li>
+          
+          
+          
+      </ul>
+    </div>
+  </body>
+</html>

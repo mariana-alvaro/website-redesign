@@ -1,0 +1,95 @@
+body{
+    margin: 1%;
+    padding: 5%;
+    margin-top: 0%;
+    padding-top: 0.5%;
+    background-color: white;
+    font-size: 18px;
+    color: rgb(80, 80, 80)
+}
+.title{
+    color: #3c3d6e;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: gloria hallelujah, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.heading{
+    color: #3c3d6e;
+    font-size: 25px;
+    text-align: center;
+    font-family: avenir, sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 1%;
+}
+.subheading{
+    font-family: gloria hallelujah, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #468189;
+    padding: 10px;
+}
+.paragraph{
+    display: flex;
+    font-family: avenir, sans-serif;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+    hyphens: auto;
+    padding-bottom: 1%;
+}
+/*Nav bar */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #77aca2;
+    text-align: center;
+    margin-left: 4%;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: gloria hallelujah, sans-serif;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #3c3d6e;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: #77aca2;
+  }
+  .topnav a.active:hover{
+    color: #3c3d6e;
+  }
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .images {
+      display: flex;
+      justify-content: center;
+      padding: 2%;
+  }
+  ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #77aca2; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
